@@ -1,0 +1,46 @@
+/* Resetting some default styles */
+
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: "images/IMG_2343.jpg";
+  }
+  
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .product {
+    flex: 0 0 calc(33.33% - 40px);
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .product img {
+    width: 150px;
+  }
+  
+  .product h2 {
+    margin-top: 10px;
+  }
+  
+  .product p {
+    font-weight: bold;
+  }
+  
+  .product button {
+    background-color: #333;
+    color: #fff;
+   
+  }
+  .container{
+    align-content: center;
+    text-shadow: 0.5px;
+    background-color: aqua;
+    
+  }
